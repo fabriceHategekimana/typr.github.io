@@ -1,0 +1,20 @@
+{
+  "id": "typr-start/advanced_typr",
+  "title": "advanced_typr",
+  "description": "Philosophy: flexibillity and type safety",
+  "source": "@site/docs/typr-start/advanced_typr.md",
+  "sourceDirName": "typr-start",
+  "slug": "/typr-start/advanced_typr",
+  "permalink": "/typr.github.io/build/docs/typr-start/advanced_typr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typr-start/advanced_typr.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting started",
+    "permalink": "/typr.github.io/build/docs/typr-start/getting-started"
+  }
+}

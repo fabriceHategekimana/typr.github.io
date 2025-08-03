@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/typr.github.io/build/README",
+  "source": "@site/src/pages/README.md",
+  "title": "Typr",
+  "description": "- What is TypR?",
+  "frontMatter": {},
+  "unlisted": false
+}

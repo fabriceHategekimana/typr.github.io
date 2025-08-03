@@ -257,27 +257,17 @@ export default {
       },
       "darkTheme": {
         "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
+          "color": "#f8f8f2",
+          "backgroundColor": "#272822"
         },
         "styles": [
           {
             "types": [
-              "prolog",
-              "constant",
-              "builtin"
+              "changed"
             ],
             "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
+              "color": "rgb(162, 191, 252)",
+              "fontStyle": "italic"
             }
           },
           {
@@ -285,44 +275,16 @@ export default {
               "deleted"
             ],
             "style": {
-              "color": "rgb(255, 85, 85)"
+              "color": "#f92672",
+              "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "changed"
+              "inserted"
             ],
             "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
+              "color": "rgb(173, 219, 103)",
               "fontStyle": "italic"
             }
           },
@@ -331,7 +293,99 @@ export default {
               "comment"
             ],
             "style": {
-              "color": "rgb(98, 114, 164)"
+              "color": "#8292a2",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "url"
+            ],
+            "style": {
+              "color": "#a6e22e"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function",
+              "class-name"
+            ],
+            "style": {
+              "color": "#e6db74"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "#f8f8f2"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "#a6e22e",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "operator",
+              "keyword"
+            ],
+            "style": {
+              "color": "#66d9ef"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "#ae81ff"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(178, 204, 214)",
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "property"
+            ],
+            "style": {
+              "color": "#f92672"
             }
           },
           {
@@ -339,12 +393,31 @@ export default {
               "attr-name"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "#a6e22e !important"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "#8292a2"
+            }
+          },
+          {
+            "types": [
+              "rule"
+            ],
+            "style": {
+              "color": "#e6db74"
             }
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "r",
+        "bash"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",

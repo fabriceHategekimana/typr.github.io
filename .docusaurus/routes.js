@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/typr.github.io/build/blog',
-    component: ComponentCreator('/typr.github.io/build/blog', 'ab5'),
+    component: ComponentCreator('/typr.github.io/build/blog', '29e'),
     exact: true
   },
   {
@@ -18,28 +18,8 @@ export default [
     exact: true
   },
   {
-    path: '/typr.github.io/build/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/typr.github.io/build/blog/authors/all-sebastien-lorber-articles', '04d'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/authors/yangshun',
-    component: ComponentCreator('/typr.github.io/build/blog/authors/yangshun', '331'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/first-blog-post',
-    component: ComponentCreator('/typr.github.io/build/blog/first-blog-post', 'ba4'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/long-blog-post',
-    component: ComponentCreator('/typr.github.io/build/blog/long-blog-post', 'a44'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/mdx-blog-post',
-    component: ComponentCreator('/typr.github.io/build/blog/mdx-blog-post', '550'),
+    path: '/typr.github.io/build/blog/authors/fabrice',
+    component: ComponentCreator('/typr.github.io/build/blog/authors/fabrice', '9fa'),
     exact: true
   },
   {
@@ -48,28 +28,18 @@ export default [
     exact: true
   },
   {
-    path: '/typr.github.io/build/blog/tags/docusaurus',
-    component: ComponentCreator('/typr.github.io/build/blog/tags/docusaurus', '816'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/tags/facebook',
-    component: ComponentCreator('/typr.github.io/build/blog/tags/facebook', 'f46'),
-    exact: true
-  },
-  {
     path: '/typr.github.io/build/blog/tags/hello',
-    component: ComponentCreator('/typr.github.io/build/blog/tags/hello', '056'),
-    exact: true
-  },
-  {
-    path: '/typr.github.io/build/blog/tags/hola',
-    component: ComponentCreator('/typr.github.io/build/blog/tags/hola', '32e'),
+    component: ComponentCreator('/typr.github.io/build/blog/tags/hello', '7de'),
     exact: true
   },
   {
     path: '/typr.github.io/build/blog/welcome',
-    component: ComponentCreator('/typr.github.io/build/blog/welcome', '5cc'),
+    component: ComponentCreator('/typr.github.io/build/blog/welcome', '425'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/HomepageFeatures',
+    component: ComponentCreator('/typr.github.io/build/HomepageFeatures', '29d'),
     exact: true
   },
   {
@@ -78,79 +48,38 @@ export default [
     exact: true
   },
   {
-    path: '/typr.github.io/build/typr',
-    component: ComponentCreator('/typr.github.io/build/typr', '34f'),
-    exact: true
-  },
-  {
     path: '/typr.github.io/build/docs',
-    component: ComponentCreator('/typr.github.io/build/docs', '380'),
+    component: ComponentCreator('/typr.github.io/build/docs', '92a'),
     routes: [
       {
         path: '/typr.github.io/build/docs',
-        component: ComponentCreator('/typr.github.io/build/docs', '612'),
+        component: ComponentCreator('/typr.github.io/build/docs', '0bd'),
         routes: [
           {
             path: '/typr.github.io/build/docs',
-            component: ComponentCreator('/typr.github.io/build/docs', '435'),
+            component: ComponentCreator('/typr.github.io/build/docs', '610'),
             routes: [
               {
-                path: '/typr.github.io/build/docs/category/tutorial---basics',
-                component: ComponentCreator('/typr.github.io/build/docs/category/tutorial---basics', 'f09'),
+                path: '/typr.github.io/build/docs/typr-doc/',
+                component: ComponentCreator('/typr.github.io/build/docs/typr-doc/', '19b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/typr.github.io/build/docs/category/tutorial---extras',
-                component: ComponentCreator('/typr.github.io/build/docs/category/tutorial---extras', 'bfa'),
+                path: '/typr.github.io/build/docs/typr-doc/advanced-typr',
+                component: ComponentCreator('/typr.github.io/build/docs/typr-doc/advanced-typr', '009'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/typr.github.io/build/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/congratulations', '713'),
+                path: '/typr.github.io/build/docs/typr-doc/typr-for-r-users',
+                component: ComponentCreator('/typr.github.io/build/docs/typr-doc/typr-for-r-users', '388'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/typr.github.io/build/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/create-a-blog-post', '268'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/create-a-document', 'c63'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/create-a-page', '4e3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/deploy-your-site', 'c53'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-basics/markdown-features', 'a73'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-extras/manage-docs-versions', '37c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/typr.github.io/build/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/typr.github.io/build/docs/tutorial-extras/translate-your-site', 'efa'),
+                path: '/typr.github.io/build/docs/typr-start/',
+                component: ComponentCreator('/typr.github.io/build/docs/typr-start/', 'ee3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

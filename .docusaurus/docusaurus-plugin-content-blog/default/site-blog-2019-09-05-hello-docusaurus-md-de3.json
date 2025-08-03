@@ -1,0 +1,56 @@
+{
+  "permalink": "/typr.github.io/build/blog/welcome-docusaurus-v2",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-09-05-hello-docusaurus.md",
+  "source": "@site/blog/2019-09-05-hello-docusaurus.md",
+  "title": "Welcome Docusaurus",
+  "description": "This is my first post on Docusaurus.",
+  "date": "2019-09-05T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Hello",
+      "permalink": "/typr.github.io/build/blog/tags/hello",
+      "description": "Hello tag description"
+    },
+    {
+      "inline": false,
+      "label": "Docusaurus",
+      "permalink": "/typr.github.io/build/blog/tags/docusaurus",
+      "description": "Docusaurus tag description"
+    }
+  ],
+  "readingTime": 0.14,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Hategekimana Fabrice",
+      "title": "IT Trainer, Programming language passionate",
+      "url": "https://ch.linkedin.com/in/fabrice-hategekimana-495b42155",
+      "page": {
+        "permalink": "/typr.github.io/build/blog/authors/fabrice"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/fabrice/",
+        "github": "https://github.com/fabriceHategekimana",
+        "youtube": "https://www.youtube.com/@wedata_unige"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/55444641?v=4",
+      "key": "fabrice"
+    }
+  ],
+  "frontMatter": {
+    "title": "Welcome Docusaurus",
+    "description": "This is my first post on Docusaurus.",
+    "slug": "welcome-docusaurus-v2",
+    "authors": "fabrice",
+    "tags": [
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/typr.github.io/build/blog/welcome"
+  }
+}

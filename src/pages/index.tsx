@@ -3,25 +3,33 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageFeatures from './HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
+import TypRLogo from '@site/static/img/typr.png';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+		<img src={TypRLogo} alt="TypR Logo" className={styles.heroLogo} />
+        <Heading as="h1" className={styles.heroTitle}>
+          The R you love, but safer.
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.heroSubtitle}>TypR is a modern, type-safe language that transpiles to R, offering a beautiful syntax and powerful features for a better development experience.</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className={clsx('button button--secondary button--lg', styles.button)}
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
+          </Link>
+          <Link
+            className={clsx('button button--secondary button--lg', styles.button)}
+            to="/docs/intro">
+            Documentation
           </Link>
         </div>
       </div>

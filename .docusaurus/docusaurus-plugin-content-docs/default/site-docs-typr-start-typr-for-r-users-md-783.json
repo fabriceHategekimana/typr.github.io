@@ -1,0 +1,23 @@
+{
+  "id": "typr-start/typr-for-r-users",
+  "title": "TypR for R users",
+  "description": "Even though the syntax try to be as close as possible to R, there are 3 fundamental differences:",
+  "source": "@site/docs/typr-start/typr-for-r-users.md",
+  "sourceDirName": "typr-start",
+  "slug": "/typr-start/typr-for-r-users",
+  "permalink": "/typr.github.io/build/docs/typr-start/typr-for-r-users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typr-start/typr-for-r-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Advanced Typr",
+    "permalink": "/typr.github.io/build/docs/typr-start/advanced-typr"
+  }
+}

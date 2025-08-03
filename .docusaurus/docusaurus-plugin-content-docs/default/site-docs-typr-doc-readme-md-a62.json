@@ -1,0 +1,27 @@
+{
+  "id": "typr-doc/README",
+  "title": "Documentation",
+  "description": "Welcome to the official documentation for TypR, a typed version of the R programming language. TypR is designed to bring the power and flexibility of R while integrating static typing features to enhance the robustness and maintainability of your code.",
+  "source": "@site/docs/typr-doc/README.md",
+  "sourceDirName": "typr-doc",
+  "slug": "/typr-doc/",
+  "permalink": "/typr.github.io/build/docs/typr-doc/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typr-doc/README.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/typr.github.io/build/docs/typr-start/getting-started"
+  },
+  "next": {
+    "title": "TypR for R users",
+    "permalink": "/typr.github.io/build/docs/typr-doc/typr-for-r-users"
+  }
+}
