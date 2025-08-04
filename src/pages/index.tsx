@@ -8,7 +8,7 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-import TypRLogo from '@site/static/img/typr.png';
+import TypRLogo from '@site/static/img/typr_carre.png';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
