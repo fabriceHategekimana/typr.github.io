@@ -11,6 +11,22 @@ sidebar_position: 1
 
 You can check the [typr.runner](https://github.com/fabriceHategekimana/typr_runner) package to install it directly on RStudio.
 
+## with Docker
+
+You can visit it's repository [here](https://hub.docker.com/r/fabricehategekimana/typr).
+
+To download the image, just use:
+
+```bash
+docker pull fabricehategekimana/typr:latest
+```
+
+You can run it with:
+
+```bash
+docker run -it --rm -v $(pwd):/workspace fabricehategekimana/typr:latest
+```
+
 ## From Scratch
 To install TypR, you will need to install `Rust` (of course you should have R installed in your system):
 
