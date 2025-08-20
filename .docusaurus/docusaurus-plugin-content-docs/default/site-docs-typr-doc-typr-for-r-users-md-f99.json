@@ -1,7 +1,7 @@
 {
   "id": "typr-doc/typr-for-r-users",
   "title": "TypR for R users",
-  "description": "Even though the syntax try to be as close as possible to R, there are 3 fundamental differences:",
+  "description": "Even though the syntax try to be as close as possible to R, there 1 fundamental difference: Semicolons.",
   "source": "@site/docs/typr-doc/typr-for-r-users.md",
   "sourceDirName": "typr-doc",
   "slug": "/typr-doc/typr-for-r-users",

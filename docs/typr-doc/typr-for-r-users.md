@@ -4,10 +4,7 @@ sidebar_position: 1
 
 # TypR for R users
  
-Even though the syntax try to be as close as possible to R, there are 3 fundamental differences:
-
-- Semicolon
-- Types and other constructs
+Even though the syntax try to be as close as possible to R, there 1 fundamental difference: Semicolons.
 
 ## Semicolons
 
