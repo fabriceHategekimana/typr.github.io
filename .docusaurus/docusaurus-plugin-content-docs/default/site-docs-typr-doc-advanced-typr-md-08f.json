@@ -1,7 +1,7 @@
 {
   "id": "typr-doc/advanced-typr",
   "title": "Advanced Typr",
-  "description": "Philosophy: flexibillity and type safety",
+  "description": "Uniform function call",
   "source": "@site/docs/typr-doc/advanced-typr.md",
   "sourceDirName": "typr-doc",
   "slug": "/typr-doc/advanced-typr",
@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typr-doc/advanced-typr.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "TypR for R users",
-    "permalink": "/typr.github.io/build/docs/typr-doc/typr-for-r-users"
+    "title": "typr-type-system",
+    "permalink": "/typr.github.io/build/docs/typr-doc/typr-type-system"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "typr-doc/typr-type-system",
+  "title": "typr-type-system",
+  "description": "Primitive types",
+  "source": "@site/docs/typr-doc/typr-type-system.md",
+  "sourceDirName": "typr-doc",
+  "slug": "/typr-doc/typr-type-system",
+  "permalink": "/typr.github.io/build/docs/typr-doc/typr-type-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/typr-doc/typr-type-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TypR for R users",
+    "permalink": "/typr.github.io/build/docs/typr-doc/typr-for-r-users"
+  },
+  "next": {
+    "title": "Advanced Typr",
+    "permalink": "/typr.github.io/build/docs/typr-doc/advanced-typr"
+  }
+}

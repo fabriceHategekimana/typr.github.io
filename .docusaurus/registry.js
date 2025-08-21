@@ -1,6 +1,7 @@
 export default {
   "01a85c17": [() => import(/* webpackChunkName: "01a85c17" */ "@theme/BlogTagsListPage"), "@theme/BlogTagsListPage", require.resolveWeak("@theme/BlogTagsListPage")],
   "08feffad": [() => import(/* webpackChunkName: "08feffad" */ "@site/docs/typr-doc/advanced-typr.md"), "@site/docs/typr-doc/advanced-typr.md", require.resolveWeak("@site/docs/typr-doc/advanced-typr.md")],
+  "0e1a3a9d": [() => import(/* webpackChunkName: "0e1a3a9d" */ "@site/docs/typr-doc/typr-type-system.md"), "@site/docs/typr-doc/typr-type-system.md", require.resolveWeak("@site/docs/typr-doc/typr-type-system.md")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "1c6720b3": [() => import(/* webpackChunkName: "1c6720b3" */ "@generated/docusaurus-plugin-content-docs/default/p/typr-github-io-build-docs-977.json"), "@generated/docusaurus-plugin-content-docs/default/p/typr-github-io-build-docs-977.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/typr-github-io-build-docs-977.json")],
   "1d2cb677": [() => import(/* webpackChunkName: "1d2cb677" */ "@generated/docusaurus-plugin-content-blog/default/p/typr-github-io-build-blog-tags-hello-510.json"), "@generated/docusaurus-plugin-content-blog/default/p/typr-github-io-build-blog-tags-hello-510.json", require.resolveWeak("@generated/docusaurus-plugin-content-blog/default/p/typr-github-io-build-blog-tags-hello-510.json")],

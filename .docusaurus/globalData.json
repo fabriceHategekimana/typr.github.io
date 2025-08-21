@@ -26,6 +26,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "typr-doc/typr-type-system",
+              "path": "/typr.github.io/build/docs/typr-doc/typr-type-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "typr-start/getting-started",
               "path": "/typr.github.io/build/docs/typr-start/getting-started",
               "sidebar": "tutorialSidebar"
