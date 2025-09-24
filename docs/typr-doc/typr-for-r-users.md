@@ -123,13 +123,47 @@ Execution:
 
 Another advantage of the `let` keyword lies in the fact you have a visual indication of where a variable is declared in your code. It can be a good habits to put `let` at each variable declaration and omitting it when your just assigning a new value.
 
+### Case of vectors and arrays
+
+You will see that you can build vectors with the `c()` constructor (with specific rules) and arrays with the `[]` constructor:
+
+**Vetor:**
+```rust
+c(1, 2, 3, 4)
+```
+
+**Array:**
+```rust
+[1, 2, 3, 4]
+```
+
+You can add vectors of same size but can't add vectors of different size or vectors with scalars. Same for the arrays
+
+**Works:**
+```rust
+c(1, 2, 3) + c(4, 5, 6)
+```
+
+**Doesn't work:**
+```rust
+c(1, 2, 3) + c(5, 6)
+5 + c(8, 9)
+```
+
+Those operations are not really type safe and need a couple of rules and principle to work correctly. Those rules are not yet there but you have a work arround with vectorial blocks. Those are blocks where you can use your vectors as if you where writting them in pure R. Those blocks always return the type `Empty` for now but will be smarter at infering types correctly in the future.
+
+**Works in vectorial blocks:**
+```rust
+@{c(1, 2, 3) + c(5, 6)}@
+@{5 + c(8, 9)}@
+```
 
 ## Types and other construct
 
-Exept from primitive types and lists. Other function call like `c()` will lead to the `Empty` type even if it doesn't match the value.
+Exept from primitive types, vectors and lists, other function call like `floor()` are not typed yet and will lead to the `Empty` type by default even if it doesn't match the value.
 
 ```rust
-c(1, 2, 3, 4)
+floor(3.4)
 ```
 
 Will give:
@@ -139,7 +173,7 @@ Type checking:
 Empty
 
 Execution: 
-[1] 1 2 3 4
+[1] 3
 ```
 
 But there are 2 ways to add types to things. 
@@ -149,7 +183,7 @@ But there are 2 ways to add types to things.
 You can assign arbitrary types to the result of an R function call by just "Forcing" it to a hosting variable.
 
 ```rust
-let a: int <- c(1, 2, 3, 4);
+let a: int <- floor(3.4);
 
 a
 ```
@@ -161,28 +195,27 @@ Type checking:
 int
 
 Execution: 
-[1] 1 2 3 4
+[1] 3
 ```
 
 todo: warning about arbitrary type
 
 ### Typing with "@" 
 
-You can define the signature of an existing function. For instance, you can define a signature for the `c()` function with 4 elements:
+You can define the signature of an existing function. For instance, you can define a signature for the `floor()` function with 4 elements:
 
 ```rust
-@c: (int, int, int, int) -> int;
-c(1, 2, 3, 4)
+@floor: (num) -> int;
+floor(3.4)
 ```
 
 Will give:
-
 ```bash
 Type checking:
 int
 
 Execution: 
-[1] 1 2 3 4
+[1] 3
 ```
 
 todo: warning limitation of function with arbitrary number of parameters;
@@ -211,6 +244,7 @@ Execution:
 
 One thing important to know, TypR use by default `S3` for any typed values. That mean, TypR will create a "typing" function that will give a specific class to any value (even function) and will create generic functions if they don't exists.
 
+Resulting R file:
 ```R
 Function1 <- function(x) x |> struct(c('Function1', 'Generic', 'Function0'))
 
