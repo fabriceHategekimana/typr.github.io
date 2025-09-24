@@ -31,6 +31,11 @@ function HomepageHeader() {
             to="/docs/typr-doc">
             Documentation
           </Link>
+          <Link
+            className={clsx('button button--secondary button--lg', styles.button)}
+            to="https://www.youtube.com/watch?v=xLoFlHbDQfc&feature=youtu.be">
+            Watch video
+          </Link>
         </div>
       </div>
     </header>
