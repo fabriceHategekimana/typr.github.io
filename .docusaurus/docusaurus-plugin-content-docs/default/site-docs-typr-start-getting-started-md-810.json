@@ -1,7 +1,7 @@
 {
   "id": "typr-start/getting-started",
   "title": "Getting started",
-  "description": "Installation",
+  "description": "Sources",
   "source": "@site/docs/typr-start/getting-started.md",
   "sourceDirName": "typr-start",
   "slug": "/typr-start/getting-started",

@@ -49,15 +49,15 @@ export default [
   },
   {
     path: '/typr.github.io/build/docs',
-    component: ComponentCreator('/typr.github.io/build/docs', 'd03'),
+    component: ComponentCreator('/typr.github.io/build/docs', '710'),
     routes: [
       {
         path: '/typr.github.io/build/docs',
-        component: ComponentCreator('/typr.github.io/build/docs', 'e8c'),
+        component: ComponentCreator('/typr.github.io/build/docs', '582'),
         routes: [
           {
             path: '/typr.github.io/build/docs',
-            component: ComponentCreator('/typr.github.io/build/docs', '9e3'),
+            component: ComponentCreator('/typr.github.io/build/docs', '318'),
             routes: [
               {
                 path: '/typr.github.io/build/docs/typr-doc/',
@@ -91,7 +91,7 @@ export default [
               },
               {
                 path: '/typr.github.io/build/docs/typr-start/getting-started',
-                component: ComponentCreator('/typr.github.io/build/docs/typr-start/getting-started', 'f49'),
+                component: ComponentCreator('/typr.github.io/build/docs/typr-start/getting-started', 'c75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
