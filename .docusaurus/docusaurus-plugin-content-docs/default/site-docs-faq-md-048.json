@@ -1,0 +1,20 @@
+{
+  "id": "faq",
+  "title": "faq",
+  "description": "FAQ",
+  "source": "@site/docs/faq.md",
+  "sourceDirName": ".",
+  "slug": "/faq",
+  "permalink": "/typr.github.io/build/docs/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Typr",
+    "permalink": "/typr.github.io/build/docs/typr-doc/advanced-typr"
+  }
+}

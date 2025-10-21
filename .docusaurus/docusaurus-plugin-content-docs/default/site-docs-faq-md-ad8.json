@@ -1,0 +1,20 @@
+{
+  "id": "FAQ",
+  "title": "FAQ",
+  "description": "I don’t understand anything, what is TypR for non‑experts?",
+  "source": "@site/docs/FAQ.md",
+  "sourceDirName": ".",
+  "slug": "/FAQ",
+  "permalink": "/typr.github.io/build/docs/FAQ",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/FAQ.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Typr",
+    "permalink": "/typr.github.io/build/docs/typr-doc/advanced-typr"
+  }
+}

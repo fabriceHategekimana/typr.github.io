@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/typr.github.io/build/__docusaurus/debug',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug', '4e0'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/config',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/config', '528'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/content',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/content', 'aa8'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/globalData',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/globalData', '832'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/metadata',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/metadata', '0d6'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/registry',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/registry', '9a5'),
+    exact: true
+  },
+  {
+    path: '/typr.github.io/build/__docusaurus/debug/routes',
+    component: ComponentCreator('/typr.github.io/build/__docusaurus/debug/routes', '34d'),
+    exact: true
+  },
+  {
     path: '/typr.github.io/build/blog',
     component: ComponentCreator('/typr.github.io/build/blog', '29e'),
     exact: true
@@ -49,16 +84,22 @@ export default [
   },
   {
     path: '/typr.github.io/build/docs',
-    component: ComponentCreator('/typr.github.io/build/docs', '710'),
+    component: ComponentCreator('/typr.github.io/build/docs', '06a'),
     routes: [
       {
         path: '/typr.github.io/build/docs',
-        component: ComponentCreator('/typr.github.io/build/docs', '582'),
+        component: ComponentCreator('/typr.github.io/build/docs', '4e8'),
         routes: [
           {
             path: '/typr.github.io/build/docs',
-            component: ComponentCreator('/typr.github.io/build/docs', '318'),
+            component: ComponentCreator('/typr.github.io/build/docs', 'e45'),
             routes: [
+              {
+                path: '/typr.github.io/build/docs/FAQ',
+                component: ComponentCreator('/typr.github.io/build/docs/FAQ', '720'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/typr.github.io/build/docs/typr-doc/',
                 component: ComponentCreator('/typr.github.io/build/docs/typr-doc/', '19b'),

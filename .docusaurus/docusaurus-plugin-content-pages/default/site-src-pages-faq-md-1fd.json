@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/typr.github.io/build/faq",
+  "source": "@site/src/pages/faq.md",
+  "description": "FAQ",
+  "frontMatter": {},
+  "unlisted": false
+}

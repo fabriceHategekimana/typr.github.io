@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'WeData', // Usually your GitHub org/user name.
   projectName: 'typr', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -90,6 +90,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/FAQ', label: 'FAQ', position: 'left'},
         {
           href: 'https://github.com/fabriceHategekimana/typr',
           label: 'GitHub',
