@@ -1,0 +1,35 @@
+{
+  "id": "faq/faq",
+  "title": "Welcome",
+  "description": "FAQ",
+  "source": "@site/docs/faq/faq.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/welcome",
+  "permalink": "/typr.github.io/build/docs/faq/welcome",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "hello",
+      "permalink": "/typr.github.io/build/docs/tags/hello"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "vestin"
+    ],
+    "tags": [
+      "hello"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Typr",
+    "permalink": "/typr.github.io/build/docs/typr-doc/advanced-typr"
+  }
+}

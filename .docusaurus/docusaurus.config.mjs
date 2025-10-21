@@ -30,7 +30,7 @@ export default {
   },
   "url": "https://fabricehategekimana.github.io",
   "baseUrl": "/typr.github.io/build/",
-  "organizationName": "facebook",
+  "organizationName": "WeData",
   "projectName": "typr",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -93,6 +93,11 @@ export default {
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/docs/FAQ",
+          "label": "FAQ",
           "position": "left"
         },
         {

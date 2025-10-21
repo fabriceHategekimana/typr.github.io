@@ -11,6 +11,11 @@
           "mainDocId": "typr-start/README",
           "docs": [
             {
+              "id": "FAQ",
+              "path": "/typr.github.io/build/docs/FAQ",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "typr-doc/advanced-typr",
               "path": "/typr.github.io/build/docs/typr-doc/advanced-typr",
               "sidebar": "tutorialSidebar"

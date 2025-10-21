@@ -1,0 +1,18 @@
+{
+  "type": "mdx",
+  "permalink": "/typr.github.io/build/welcome",
+  "source": "@site/src/pages/index.md",
+  "title": "Welcome",
+  "description": "FAQ",
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "vestin"
+    ],
+    "tags": [
+      "hello"
+    ]
+  },
+  "unlisted": false
+}

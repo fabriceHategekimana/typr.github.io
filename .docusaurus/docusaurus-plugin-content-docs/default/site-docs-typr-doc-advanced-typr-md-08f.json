@@ -19,5 +19,9 @@
   "previous": {
     "title": "typr-type-system",
     "permalink": "/typr.github.io/build/docs/typr-doc/typr-type-system"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/typr.github.io/build/docs/FAQ"
   }
 }
